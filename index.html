@@ -26,8 +26,10 @@
     </style>
 </head>
 <body>
-    <h1>Willkommen auf meiner ersten HTML-Seite!</h1>
-    <p>Dies ist ein Beispieltext.</p>
+    <section id="main" class="active">
+        <h1>Willkommen auf meiner ersten HTML-Seite!</h1>
+        <p>Dies ist ein Beispieltext.</p>
+    </section>
     
     <h2>Inhaltsverzeichnis</h2>
     <nav>
@@ -84,11 +86,6 @@
         <a href="#" onclick="showSection('main')">Zurück zur Hauptseite</a>
     </section>
 
-    <section id="main" class="active">
-        <h1>Willkommen auf meiner ersten HTML-Seite!</h1>
-        <p>Dies ist ein Beispieltext.</p>
-    </section>
-
     <script>
         function showSection(id) {
             const sections = document.querySelectorAll('section');
@@ -100,4 +97,3 @@
     </script>
 </body>
 </html>
-

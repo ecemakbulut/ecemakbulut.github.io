@@ -8,6 +8,19 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #ffcccb; /* Hellpink */
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #ff99cc; /* Etwas dunkleres Pink */
+        }
+        .names {
+            font-size: 16px;
+            color: #ffffff;
         }
         nav ul {
             list-style-type: none;
@@ -26,8 +39,13 @@
     </style>
 </head>
 <body>
+    <div class="header">
+        <h1>ArtHub Seite</h1>
+        <div class="names">Ecem, Ivana</div>
+    </div>
+    
     <section id="main" class="active">
-        <h1>Herzlich Willkommen zu unserer ArtHub Seite!</h1>
+        <h1>Herzlich Willkommen auf unserer ArtHub Seite!</h1>
         <p>Dies ist ein Beispieltext.</p>
     </section>
     
@@ -90,4 +108,3 @@
     </script>
 </body>
 </html>
-

@@ -112,6 +112,18 @@
     <section id="seite6">
         <h2>Team</h2>
         <p>Inhalt von Seite 6.</p>
-        <a href="#" onclick="showSection('main')">Zurück zur
+        <a href="#" onclick="showSection('main')">Zurück zur Hauptseite</a>
+    </section>
 
+    <script>
+        function showSection(id) {
+            const sections = document.querySelectorAll('section');
+            sections.forEach(section => {
+                section.classList.remove('active');
+            });
+            document.getElementById(id).classList.add('active');
+        }
+    </script>
+</body>
+</html>
 

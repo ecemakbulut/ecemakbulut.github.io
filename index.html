@@ -17,7 +17,10 @@
             margin-right: 10px;
         }
         section {
-            margin-top: 50px;
+            display: none;
+        }
+        section.active {
+            display: block;
         }
     </style>
 </head>
@@ -28,29 +31,44 @@
     <h2>Inhaltsverzeichnis</h2>
     <nav>
         <ul>
-            <li><a href="#seite1">Seite 1</a></li>
-            <li><a href="#seite2">Seite 2</a></li>
-            <li><a href="#seite3">Seite 3</a></li>
+            <li><a href="#" onclick="showSection('seite1')">Seite 1</a></li>
+            <li><a href="#" onclick="showSection('seite2')">Seite 2</a></li>
+            <li><a href="#" onclick="showSection('seite3')">Seite 3</a></li>
         </ul>
     </nav>
 
     <section id="seite1">
         <h2>Seite 1</h2>
         <p>Inhalt von Seite 1.</p>
-        <a href="#top">Zurück zum Inhaltsverzeichnis</a>
+        <a href="#" onclick="showSection('main')">Zurück zur Hauptseite</a>
     </section>
 
     <section id="seite2">
         <h2>Seite 2</h2>
         <p>Inhalt von Seite 2.</p>
-        <a href="#top">Zurück zum Inhaltsverzeichnis</a>
+        <a href="#" onclick="showSection('main')">Zurück zur Hauptseite</a>
     </section>
 
     <section id="seite3">
         <h2>Seite 3</h2>
         <p>Inhalt von Seite 3.</p>
-        <a href="#top">Zurück zum Inhaltsverzeichnis</a>
+        <a href="#" onclick="showSection('main')">Zurück zur Hauptseite</a>
     </section>
+
+    <section id="main" class="active">
+        <h1>Willkommen auf meiner ersten HTML-Seite!</h1>
+        <p>Dies ist ein Beispieltext.</p>
+    </section>
+
+    <script>
+        function showSection(id) {
+            const sections = document.querySelectorAll('section');
+            sections.forEach(section => {
+                section.classList.remove('active');
+            });
+            document.getElementById(id).classList.add('active');
+        }
+    </script>
 </body>
 </html>
 

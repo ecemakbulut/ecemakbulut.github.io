@@ -3,11 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meine GitHub Pages Website</title>
+    <title>Meine erste HTML-Seite</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        section {
+            margin-top: 50px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Willkommen auf meiner Website!</h1>
-    <p>Dies ist eine einfache Website.</p>
+    <h1>Willkommen auf meiner ersten HTML-Seite!</h1>
+    <p>Dies ist ein Beispieltext.</p>
+    
+    <h2>Inhaltsverzeichnis</h2>
+    <nav>
+        <ul>
+            <li><a href="#seite1">Seite 1</a></li>
+            <li><a href="#seite2">Seite 2</a></li>
+            <li><a href="#seite3">Seite 3</a></li>
+        </ul>
+    </nav>
+
+    <section id="seite1">
+        <h2>Seite 1</h2>
+        <p>Inhalt von Seite 1.</p>
+        <a href="#top">Zurück zum Inhaltsverzeichnis</a>
+    </section>
+
+    <section id="seite2">
+        <h2>Seite 2</h2>
+        <p>Inhalt von Seite 2.</p>
+        <a href="#top">Zurück zum Inhaltsverzeichnis</a>
+    </section>
+
+    <section id="seite3">
+        <h2>Seite 3</h2>
+        <p>Inhalt von Seite 3.</p>
+        <a href="#top">Zurück zum Inhaltsverzeichnis</a>
+    </section>
 </body>
 </html>
 

@@ -35,18 +35,9 @@ Last build: 18:25 | 23.06.2024
 
 ---
 
-title: Value Proposition
-nav_order: 1
----
-
-{: .label }
-[Jane Dane]
-
-{: .no_toc }
 # Value proposition
 
 <details open markdown="block">
-{: .text-delta }
 <summary>Table of contents</summary>
 
 + [Description](#description)
@@ -55,7 +46,6 @@ nav_order: 1
 + [Goals](#goals)
 + [Ambitions](#ambitions)
 
-{: toc }
 </details>
 
 ## Description

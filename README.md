@@ -1,9 +1,7 @@
-
 Web App ArtHub 
 ---
 Home
 ---
-
 
 # ArtHub
 
@@ -33,10 +31,10 @@ Die oben genannten Teammitglieder erklären an Eides statt:
 
 > Diese Arbeit wurde selbständig und eigenhändig erstellt. Die den benutzten Quellen wörtlich oder inhaltlich entommenen Stellen sind als solche kenntlich gemacht. Diese Erklärung gilt für jeglichen Inhalt und umfasst sowohl diese Dokumentation als auch den als Projektergebnis eingereichten Quellcode.
 
-
 Last build: 18:25 | 23.06.2024 
 
 ---
+
 title: Value Proposition
 nav_order: 1
 ---
@@ -48,25 +46,48 @@ nav_order: 1
 # Value proposition
 
 <details open markdown="block">
-<Description>
-  <Persona>
-    <Value proposition>
-      <Goals>
-</Description>
+{: .text-delta }
+<summary>Table of contents</summary>
+
++ [Description](#description)
++ [Persona](#persona)
++ [Value Proposition](#value-proposition)
++ [Goals](#goals)
++ [Ambitions](#ambitions)
+
+{: toc }
 </details>
 
-## The problem
+## Description
+
+[Description content here]
+
+## Persona
+
+[Persona content here]
+
+## Value Proposition
+
+### The problem
 
 [Describe which problem your application tackles and why it is relevant.]
 
-## Our solution
+### Our solution
 
 [Describe why and how your app solves the stated problem. Don't over-promise: the description should match what your app actually delivers.]
 
-## Target user
+### Target user
 
 [Scope your target user(s), e.g., with the help of personas.]
 
-## Customer journey
+### Customer journey
 
 [Illustrate the customer journey, from the app's entry point to a completed task. You might want to show the customer journey as (schematic) screen flows.]
+
+## Goals
+
+[Goals content here]
+
+## Ambitions
+
+[Ambitions content here]

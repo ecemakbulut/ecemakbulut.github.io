@@ -67,8 +67,6 @@ Kunstinteressierte haben oft Schwierigkeiten, umfassende und leicht zugängliche
 
 ### Our solution
 
-### Our solution
-
 ArtHub löst diese Probleme, indem es eine benutzerfreundliche Plattform bietet, die Kunstinteressierten ermöglicht, leicht durch verschiedene Epochen und Kunststile zu navigieren. Die App bietet eine leistungsstarke Suchfunktion, die es Nutzern ermöglicht, gezielt nach Kunstwerken und Künstlern zu suchen. Detaillierte Informationen zu jedem Kunstwerk, einschließlich Titel, Künstler, Epoche und Beschreibung, sowie umfassende Profilseiten für Künstler erleichtern das Verständnis und die Exploration der Kunstgeschichte.
 
 Durch die Favoritenfunktion mit dem "Herz"-Button können Benutzer ihre persönlichen Sammlungen von bevorzugten Kunstwerken und Künstlern erstellen und verwalten. Dies fördert ein vertieftes Engagement und ermöglicht es, inspirierende Werke einfach zu markieren und wiederzufinden.

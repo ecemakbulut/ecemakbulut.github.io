@@ -1,141 +1,123 @@
-Web App ArtHub 
----
-Home
+import tkinter as tk
+from tkinter import messagebox
 
-# ArtHub
+# Dummy-Daten für Genre und Künstler
+genres = ["Renaissance", "Barock", "Kubismus", "Impressionismus"]
+kuenstler = ["Leonardo da Vinci", "Rembrandt", "Pablo Picasso", "Vincent van Gogh"]
 
-Die ArtHub App ist eine innovative Plattform, die es Kunstinteressierten ermöglicht, in die faszinierende Welt der Kunst einzutauchen. ArtHub zeichnet sich durch seine benutzerfreundliche Oberfläche und einer Datenbank aus. Eine einzigartige Gelegenheit, verschiedene Kunstwerke aus verschiedenen Epochen und Künstlern zu entdecken. Ob für die Renaissance, das Barock, den Kubismus oder andere kunsthistorische Epochen – ArtHub steht euch zur Verfügung. Unsere App dient sowohl als Nachschlagewerk als auch als nützliches Lernwerkzeug. Es bietet nämlich vielfältige und nützliche Informationen über verschiedene Künstler und Zeitepochen. Benutzer haben die Möglichkeit, nach bestimmten Werken zu suchen, um mehr darüber zu erfahren und sich mit verschiedenen Perioden der Kunstgeschichte auseinanderzusetzen. Darüber hinaus ermöglicht es ihnen, ihr Wissen über Kunst zu vertiefen, was insbesondere für den Kunstunterricht oder ein studienbezogenes Fach von großem Nutzen ist. Demnach erfüllt unsere App eine doppelte Funktion und kann sowohl für Anfänger als auch für Experten von Nutzen sein.
+class ArtHubApp:
+    def __init__(self, root):
+        self.root = root
+        self.root.title("ArtHub")
+        self.root.geometry("800x700")
+        self.root.configure(bg="black")  # Hintergrundfarbe auf schwarz setzen
+        
+        # Inhaltsverzeichnis auf der linken Seite
+        self.frame_menu = tk.Frame(self.root, bg="black")
+        self.frame_menu.pack(side=tk.LEFT, fill=tk.Y)
 
-## Team members
+        self.label_title = tk.Label(self.frame_menu, text="Web App ArtHub", font=("Helvetica", 16, "bold"), bg="black", fg="white")
+        self.label_title.pack(pady=10)
 
-### Ecem Akbulut
+        self.label_home = tk.Label(self.frame_menu, text="Home", font=("Helvetica", 14), bg="black", fg="white", cursor="hand2")
+        self.label_home.pack(pady=5)
+        self.label_home.bind("<Button-1>", lambda e: self.show_home())
 
-About
-: 21-jährige Wirtschaftsinformatik Studentin aus Köpenick.
+        self.label_value_prop = tk.Label(self.frame_menu, text="Value Proposition", font=("Helvetica", 14), bg="black", fg="white", cursor="hand2")
+        self.label_value_prop.pack(pady=5)
+        self.label_value_prop.bind("<Button-1>", lambda e: self.show_value_prop())
 
-Matr.-Nr.
-: 77211918023
+        self.label_tech_docs = tk.Label(self.frame_menu, text="Technical Docs", font=("Helvetica", 14), bg="black", fg="white", cursor="hand2")
+        self.label_tech_docs.pack(pady=5)
+        self.label_tech_docs.bind("<Button-1>", lambda e: self.show_tech_docs())
 
-### Ivana Caran
+        self.label_team_eval = tk.Label(self.frame_menu, text="Team Evaluation", font=("Helvetica", 14), bg="black", fg="white", cursor="hand2")
+        self.label_team_eval.pack(pady=5)
+        self.label_team_eval.bind("<Button-1>", lambda e: self.show_team_eval())
+        
+        # Rahmen für den Hauptinhalt
+        self.frame_content = tk.Frame(self.root, bg="black")
+        self.frame_content.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 
-About
-: Some info about Joe
+        # Genre und Künstler Buttons in der Mitte
+        self.button_genre = tk.Button(self.frame_content, text="Genre", font=("Helvetica", 25), command=self.show_genres, width=20, height=3, bg="white", fg="black")
+        self.button_genre.pack(pady=30)
 
-Matr.-Nr.
-: 1234567
+        self.button_artist = tk.Button(self.frame_content, text="Künstler", font=("Helvetica", 25), command=self.show_artists, width=20, height=3, bg="white", fg="black")
+        self.button_artist.pack(pady=30)
+        
+        # Suchleiste mit Lupe-Symbol
+        self.entry_search = tk.Entry(self.frame_content, font=("Helvetica", 14), bg="white", fg="black")
+        self.entry_search.pack(pady=20)
+        
+        # Rahmen für die Such- und Favoriten-Buttons unten
+        frame_bottom_buttons = tk.Frame(self.frame_content, bg="black")
+        frame_bottom_buttons.pack(side=tk.BOTTOM, pady=40)
+        
+        # Button für die Suche (Lupe-Symbol)
+        self.button_search = tk.Button(frame_bottom_buttons, text="🔍", font=("Helvetica", 16), command=self.search, width=10, height=2, bg="white", fg="black")
+        self.button_search.grid(row=0, column=0, padx=5)
 
-## Eidesstattliche Erklärung
+        # Button für Favoriten (Herz-Symbol)
+        self.button_favorites = tk.Button(frame_bottom_buttons, text="❤️", font=("Helvetica", 16), command=self.show_favorites, width=10, height=2, bg="white", fg="black")
+        self.button_favorites.grid(row=0, column=1, padx=5)
+        
+        # Rahmen für die Favoritenliste
+        frame_favorites = tk.Frame(self.frame_content, bg="black")
+        frame_favorites.pack(pady=20)
+        
+        # Favoritenliste mit Herz-Symbol
+        self.label_favorites = tk.Label(frame_favorites, text="Favoriten", font=("Helvetica", 16, "bold"), bg="black", fg="white")
+        self.label_favorites.grid(row=0, column=0, padx=10)
+        
+        self.favorite_listbox = tk.Listbox(frame_favorites, width=40, height=5, font=("Helvetica", 12), bg="white", fg="black")
+        self.favorite_listbox.grid(row=1, column=0, padx=10)
+        
+        # Beispiel: Eintrag zur Favoritenliste hinzufügen (Dummy-Daten)
+        self.add_to_favorites("Mona Lisa")
+        self.add_to_favorites("Starry Night")
 
-Die oben genannten Teammitglieder erklären an Eides statt:
+    def show_home(self):
+        messagebox.showinfo("Home", "Web App ArtHub\n---\nHome\n\n# ArtHub\n\nDie ArtHub App ist eine innovative Plattform...")
 
-> Diese Arbeit wurde selbständig und eigenhändig erstellt. Die den benutzten Quellen wörtlich oder inhaltlich entommenen Stellen sind als solche kenntlich gemacht. Diese Erklärung gilt für jeglichen Inhalt und umfasst sowohl diese Dokumentation als auch den als Projektergebnis eingereichten Quellcode.
+    def show_value_prop(self):
+        messagebox.showinfo("Value Proposition", "Web App ArtHub\n---\nValue Proposition\n\n# Description\n\n+ Die ArtHub App ist eine informative Kunst App...")
 
-Last build: 18:25 | 23.06.2024 
+    def show_tech_docs(self):
+        messagebox.showinfo("Technical Docs", "Web App ArtHub\n---\nTechnical Docs\n\n# Technical Documentation\n\nHier könnte die technische Dokumentation stehen...")
 
----
+    def show_team_eval(self):
+        messagebox.showinfo("Team Evaluation", "Web App ArtHub\n---\nTeam Evaluation\n\n# Team members\n\n### Ecem Akbulut\n\nAbout\n: 21-jährige Wirtschaftsinformatik Studentin aus Köpenick...")
 
-# Value proposition
-
-<details open markdown="block">
-<summary>Table of contents</summary>
-
-+ [Description](#description)
-+ [Persona](#persona)
-+ [Value Proposition](#value-proposition)
-+ [Goals](#goals)
-+ [Ambitions](#ambitions)
-
-</details>
-
-## Description
-
-+ Die ArtHub App ist eine informative Kunst App für Kunstliebhaber/innen
-+ Kernfunktionen bestehen aus einer Startseite mit Kunstepoche, einer Suchfunktion und einer Favooritensammlung
-+ wichtige Informationen und Daten werden übersichtlich und unkompliziert angezeigt
-+ User können Informationen unter der Favoritenliste speichern, um schneller auf diese zugreifen zu können
-+ Die App bezieht sich auf eine Altersgruppe von klein bis gross: 12-90+ Jahre
-
-## Persona
-
-[Persona content here]
-
-## Value Proposition
-
-### The problem
-
-Kunstinteressierte haben oft Schwierigkeiten, umfassende und leicht zugängliche Informationen über Kunstwerke und Künstler aus verschiedenen Epochen zu finden. Bestehende Ressourcen sind fragmentiert und schwer zu navigieren. Es fehlt eine zentrale, benutzerfreundliche Plattform, die eine einfache Suche, detaillierte Informationen und die Möglichkeit bietet, Favoriten zu speichern. ArtHub löst dieses Problem, indem es eine intuitive und umfassende App bereitstellt, die den Zugang zu Kunst und Wissen vereinfacht und das Interesse an Kunst fördert.
-
-### Our solution
-
-ArtHub löst diese Probleme, indem es eine benutzerfreundliche Plattform bietet, die Kunstinteressierten ermöglicht, leicht durch verschiedene Epochen und Kunststile zu navigieren. Die App bietet eine leistungsstarke Suchfunktion, die es Nutzern ermöglicht, gezielt nach Kunstwerken und Künstlern zu suchen. Detaillierte Informationen zu jedem Kunstwerk, einschließlich Titel, Künstler, Epoche und Beschreibung, sowie umfassende Profilseiten für Künstler erleichtern das Verständnis und die Exploration der Kunstgeschichte.
-
-Durch die Favoritenfunktion mit dem "Herz"-Button können Benutzer ihre persönlichen Sammlungen von bevorzugten Kunstwerken und Künstlern erstellen und verwalten. Dies fördert ein vertieftes Engagement und ermöglicht es, inspirierende Werke einfach zu markieren und wiederzufinden.
-
-ArtHub ist darauf ausgelegt, Kunstinteressierte zu unterstützen, ihr Wissen zu erweitern, neue Künstler zu entdecken und eine reichhaltige Sammlung von Kunstwerken zu kuratieren, die sie inspirieren und bereichern.
-
-### Target user
-
-ArtHub richtet sich an eine vielfältige Zielgruppe von Kunstinteressierten, darunter:
-
-Kunstliebhaber und Sammler: Personen, die Kunstwerke sammeln oder sich für Kunst verschiedener Epochen und Stile interessieren.
-
-Studierende und Lehrkräfte: Studenten und Lehrer, die Kunstgeschichte studieren oder unterrichten und eine zuverlässige Quelle für Informationen und Inspiration suchen.
-
-Touristen und Kulturinteressierte: Besucher von Museen und Galerien, die ihr Verständnis und ihre Kenntnisse über Kunst erweitern möchten.
-
-Hobbykünstler und Kreative: Personen, die selbst künstlerisch tätig sind und nach Inspiration und Referenzen suchen.
-
-### Customer journey
-
-1. Einstiegspunkt:
-   - Der Nutzer öffnet die ArtHub App.
-
-2. Navigation und Suche:
-   - Der Nutzer navigiert durch das Hauptmenü und verwendet die Suchleiste, um nach einem Kunstwerk oder Künstler zu suchen.
-
-3. Suchergebnisse anzeigen:
-   - Die App zeigt eine Liste relevanter Suchergebnisse an.
-
-4. Detailansicht anzeigen:
-   - Der Nutzer wählt ein Kunstwerk oder einen Künstler aus, um detaillierte Informationen wie Titel, Künstler, Epoche und Beschreibung zu sehen.
-
-5. Favoriten markieren:
-   - Der Nutzer markiert Kunstwerke oder Künstler als Favoriten durch den "Herz"-Button.
-
-6. Weiteres Entdecken:
-   - Der Nutzer erkundet weiter die App, um mehr Kunstwerke zu entdecken und mehr über Künstler und Epochen zu erfahren.
-
-7. Abschluss:
-   - Der Nutzer beendet seine Aufgabe mit einem vertieften Verständnis und einem erweiterten Interesse an Kunst.
-
-Diese vereinfachte Customer Journey zeigt den typischen Ablauf eines Nutzers innerhalb der ArtHub App, beginnend beim Einstieg bis zum Abschluss einer Suche oder Entdeckung.
-
-## Goals
-
-Die Ziele der ArtHub App umfassen:
-
-Benutzerfreundlichkeit: Bereitstellung einer intuitiven Benutzeroberfläche, die es Nutzern ermöglicht, leicht durch verschiedene Kunstwerke und Künstler zu navigieren.
-
-Informationsreiches Erlebnis: Bereitstellung umfassender Informationen zu Kunstwerken, einschließlich Titel, Künstler, Epoche und Beschreibung, um das Verständnis und die Wertschätzung für Kunst zu fördern.
-
-Effektive Suche: Implementierung einer leistungsstarken Suchfunktion, die es Nutzern ermöglicht, gezielt nach Kunstwerken und Künstlern zu suchen und relevante Ergebnisse zu erhalten.
-
-Favoritenverwaltung: Einführung einer Funktion zum Markieren und Verwalten von Favoriten, um Nutzern zu ermöglichen, persönliche Sammlungen von bevorzugten Kunstwerken und Künstlern zu erstellen.
-
-Erweiterung des Kunstwissens: Unterstützung von Kunstinteressierten, ihr Wissen über verschiedene Epochen, Stile und Künstler zu erweitern und zu vertiefen.
-
-Inspiration und Bildung: Bereitstellung einer Plattform, die sowohl für Laien als auch für Experten inspirierend ist und zur Bildung und Entwicklung eines tieferen Verständnisses für Kunst beiträgt.
-
-## Ambitions
-
-Die Ambitionen von ArtHub sind vielfältig und umfassen:
-
-Wachsende Nutzerbasis: Die App strebt danach, eine breite und diverse Gemeinschaft von Kunstinteressierten anzusprechen und zu unterstützen, die Kunst in all ihren Facetten schätzen.
-
-Erweiterung der Datenbank: Kontinuierliche Erweiterung der Kunstwerke und Künstlerprofile in der Datenbank, um eine umfassende Sammlung aus verschiedenen Epochen und Stilen bereitzustellen.
-
-Verbesserung der Benutzererfahrung: Kontinuierliche Optimierung der Benutzeroberfläche und Einführung neuer Funktionen, um das Entdecken und Lernen über Kunst so zugänglich und ansprechend wie möglich zu gestalten.
-
-Internationale Reichweite: Erweiterung der Verfügbarkeit und Lokalisierung der App, um Kunstinteressierte weltweit anzusprechen und kulturelle Vielfalt zu fördern.
-
-Bildung und Wissensvermittlung: Partnerschaften mit Bildungseinrichtungen und Kulturinstitutionen, um ArtHub als wertvolles Werkzeug für den Kunstunterricht und die akademische Forschung zu etablieren.
+    def show_genres(self):
+        # Dummy-Funktion, um Genres anzuzeigen
+        messagebox.showinfo("Genres", "\n".join(genres))
+        
+    def show_artists(self):
+        # Dummy-Funktion, um Künstler anzuzeigen
+        messagebox.showinfo("Künstler", "\n".join(kuenstler))
+        
+    def search(self):
+        # Dummy-Funktion für die Suchfunktion
+        query = self.entry_search.get().strip().lower()
+        if query:
+            messagebox.showinfo("Suchergebnisse", f"Suche nach: {query}")
+        else:
+            messagebox.showwarning("Fehler", "Bitte geben Sie einen Suchbegriff ein.")
+    
+    def show_favorites(self):
+        # Dummy-Funktion, um Favoriten anzuzeigen
+        favorites = self.favorite_listbox.get(0, tk.END)
+        if favorites:
+            messagebox.showinfo("Favoritenliste", "\n".join(favorites))
+        else:
+            messagebox.showinfo("Favoritenliste", "Keine Favoriten gespeichert.")
+    
+    def add_to_favorites(self, item):
+        self.favorite_listbox.insert(tk.END, item)
+    
+# Hauptprogramm
+if __name__ == "__main__":
+    root = tk.Tk()
+    app = ArtHubApp(root)
+    root.mainloop()

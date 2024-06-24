@@ -158,7 +158,26 @@ Bildung und Wissensvermittlung: Partnerschaften mit Bildungseinrichtungen und Ku
 
 ## Technical Docs
 
-[Technical documentation content here]
+<details open markdown="block">
+<summary>Inhaltsverzeichnis</summary>
+
++ [App Structure](#app-structure)
++ [App Behaviour](#app-behaviour)
++ [App References](#app-references)
++ [Design Decisions](#design-decisions)
+
+</details>
+
+### App Structure
+Main Features
+
+### App Behaviour
+modell
+### App References
+App routes
+
+### Design Decisions
+...
 
 ---
 

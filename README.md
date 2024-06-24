@@ -22,15 +22,15 @@ About
 : 21-jährige Wirtschaftsinformatik Studentin aus Köpenick.
 
 Matr.-Nr.
-: 77211918023
+: 11918023
 
 ### Ivana Caran
 
 About
-: Some info about Joe
+: 21-jährige Wirtschaftsinformatik Studentin aus Tempelhof.
 
 Matr.-Nr.
-: 1234567
+: 11974931
 
 ## Eidesstattliche Erklärung
 

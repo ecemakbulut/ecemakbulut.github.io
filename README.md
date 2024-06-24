@@ -65,7 +65,10 @@ Last build: 18:25 | 23.06.2024
 
 ### Persona
 
-[Persona content here]
+![Persona 1](Persona1.png)
+![Persona 2](Persona2.png)
+![Persona 3](Persona3.jpg)
+![Persona 4](Persona4.jpg)
 ### The problem
 
 Kunstinteressierte haben oft Schwierigkeiten, umfassende und leicht zugängliche Informationen über Kunstwerke und Künstler aus verschiedenen Epochen zu finden. Bestehende Ressourcen sind fragmentiert und schwer zu navigieren. Es fehlt eine zentrale, benutzerfreundliche Plattform, die eine einfache Suche, detaillierte Informationen und die Möglichkeit bietet, Favoriten zu speichern. ArtHub löst dieses Problem, indem es eine intuitive und umfassende App bereitstellt, die den Zugang zu Kunst und Wissen vereinfacht und das Interesse an Kunst fördert.

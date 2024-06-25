@@ -54,6 +54,7 @@ Last build: 18:25 | 23.06.2024
 + [Value Proposition](#value-proposition)
 + [Goals](#goals)
 + [Ambitions](#ambitions)
++ [Priorities](#priorities)
 
 </details>
 
@@ -192,6 +193,12 @@ Internationale Reichweite: Erweiterung der Verfügbarkeit und Lokalisierung der 
 
 Bildung und Wissensvermittlung: Partnerschaften mit Bildungseinrichtungen und Kulturinstitutionen, um ArtHub als wertvolles Werkzeug für den Kunstunterricht und die akademische Forschung zu etablieren.
 
+### Priorities
+
+- Datenbank miteinbringen
+- Datenmodell vervollständigen ggf. auch für die Favoritenliste
+- Design verbessern 
+- Code beenden
 ---
 
 ## Technical Docs

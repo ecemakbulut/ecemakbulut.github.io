@@ -169,7 +169,19 @@ Bildung und Wissensvermittlung: Partnerschaften mit Bildungseinrichtungen und Ku
 </details>
 
 ### App Structure
-Main Features
+Main Features:
+
+Suchfunktion: Gezielte Suche nach Kunstwerken, Künstlern oder Epochen zur effizienten Informationssuche
+
+Umfassende Kunstdatenbank: Zugang zu einer breiten Palette von Kunstwerken aus verschiedenen Epochen und Stilen
+
+Favoriten und Sammlungen: Möglichkeit, persönliche Favoriten zu markieren und Sammlungen von Kunstwerken zu erstellen.
+
+Interaktive Lernwerkzeuge: Bildungsressourcen und Informationen, die sowohl Lernende als auch Kenner der Kunst unterstützen.
+
+Sequence of main features:
+
+.....
 
 ### App Behaviour
 modell
@@ -183,5 +195,9 @@ App routes
 
 ## Team Evaluation
 
-[Team evaluation content here]
+Goals:
+
+Improvements:
+
+Contributions:
 

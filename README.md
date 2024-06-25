@@ -219,7 +219,7 @@ Interaktive Lernwerkzeuge: Bildungsressourcen und Informationen, die sowohl Lern
 
 Sequence of main features:
 
-Data-Model:
+**Data-Model:**
 ![Data Model](Datamodel.jpg)
 
 ### App Behaviour

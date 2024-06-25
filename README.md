@@ -76,6 +76,43 @@ Last build: 18:25 | 23.06.2024
 Wir, das ArtHub-Team, haben eine innovative und umfassende App für Kunstliebhaber entwickelt. ArtHub ist mehr als nur eine Plattform – es ist ein Tor zur Welt der Kunst. Unsere App bietet eine reichhaltige Sammlung von Kunstwerken aus verschiedenen Epochen und Stilen, die kunsthistorisch bedeutend sind. Von der Renaissance bis zur modernen Kunst, von Gemälden über Skulpturen bis zu digitalen Kunstwerken – ArtHub bietet einen umfassenden Überblick und detaillierte Informationen zu jedem Kunstwerk und Künstler.
 
 ArtHub ist eine unverzichtbare Ressource für alle, die sich für Kunst interessieren. Unsere Plattform richtet sich sowohl an Neulinge, die gerade erst in die Kunstwelt eintauchen, als auch an Experten, die ihr Wissen vertiefen möchten. Wir bieten nicht nur Informationen, sondern auch Inspiration und Bildung durch eine Vielzahl von Funktionen, die es den Nutzern ermöglichen, Kunstwerke zu entdecken, zu verstehen und zu schätzen.
+
+Die "Value Proposition" für dein Projekt ArtHub kann wie folgt beschrieben werden:
+
+---
+
+## Value Proposition
+
+Wir, das ArtHub-Team, bieten Kunstliebhabern eine einzigartige Plattform, die den Zugang zur Welt der Kunst revolutioniert. Unsere App, ArtHub, ist mehr als nur ein digitales Kunstarchiv – sie ist ein interaktives und umfassendes Lernwerkzeug, das Kunstgeschichte zugänglich und spannend macht.
+
+Einzigartiger Nutzen
+
+*Umfassende Kunstdatenbank*: ArtHub bietet Zugang zu einer breiten Sammlung von Kunstwerken aus verschiedenen Epochen und Stilen. Nutzer können Kunstwerke aus der Renaissance, dem Barock, dem Kubismus und vielen weiteren kunsthistorischen Epochen entdecken.
+
+*Benutzerfreundliche Oberfläche*: Unsere intuitive Benutzeroberfläche macht es einfach, Kunstwerke zu durchsuchen und detaillierte Informationen zu Künstlern und ihren Werken zu finden. 
+
+*Personalisierte Sammlungen*: Mit der Favoritenfunktion können Nutzer ihre eigenen Sammlungen von Kunstwerken erstellen und verwalten. Diese Funktion ermöglicht es, inspirierende Werke einfach zu markieren und wiederzufinden.
+
+*Bildung und Inspiration*: ArtHub dient als wertvolles Lernwerkzeug für Schüler, Studenten und Kunstinteressierte, indem es detaillierte Informationen und historische Kontexte zu den Kunstwerken bietet. 
+
+Einzigartigkeit
+
+*Interaktive Funktionen*: Anders als andere Kunstarchive bietet ArtHub interaktive Lernwerkzeuge, die das Verständnis und die Wertschätzung für Kunst vertiefen. Nutzer können nicht nur Informationen konsumieren, sondern auch aktiv mit den Inhalten interagieren.
+
+*Favoriten und Sammlungen*: Unsere Plattform ermöglicht es Nutzern, persönliche Sammlungen ihrer Lieblingskunstwerke zu erstellen, was die Benutzerbindung stärkt und die App zu einem personalisierten Kunstarchiv macht.
+
+*Umfassende Suchfunktion*: ArtHub bietet eine leistungsstarke Suchfunktion, die es Nutzern ermöglicht, gezielt nach Kunstwerken, Künstlern oder Epochen zu suchen und relevante Ergebnisse zu erhalten.
+
+Relevanz
+
+*Für Kunstliebhaber*: ArtHub richtet sich an Kunstsammler, Studenten der Kunstgeschichte, Lehrer und alle, die sich für Kunst interessieren. Es bietet eine zentrale Anlaufstelle für umfassende und leicht zugängliche Informationen.
+
+*Bildungsressourcen*: Schulen und Universitäten können ArtHub als ergänzendes Lernwerkzeug einsetzen, um den Kunstunterricht zu bereichern und den Schülern und Studenten eine tiefere Einsicht in die Kunstgeschichte zu bieten.
+
+*Kulturelle Entdecker*: Touristen und Museumsbesucher können die App nutzen, um mehr über die Kunstwerke zu erfahren, die sie in Museen und Galerien sehen.
+
+Durch die Bereitstellung dieser Funktionen und Vorteile bietet ArtHub eine einzigartige und wertvolle Ressource für alle, die ihre Liebe zur Kunst vertiefen und erweitern möchten.
+
 ### The problem
 
 Kunstinteressierte haben oft Schwierigkeiten, umfassende und leicht zugängliche Informationen über Kunstwerke und Künstler aus verschiedenen Epochen zu finden. Bestehende Ressourcen sind fragmentiert und schwer zu navigieren. Es fehlt eine zentrale, benutzerfreundliche Plattform, die eine einfache Suche, detaillierte Informationen und die Möglichkeit bietet, Favoriten zu speichern. ArtHub löst dieses Problem, indem es eine intuitive und umfassende App bereitstellt, die den Zugang zu Kunst und Wissen vereinfacht und das Interesse an Kunst fördert.
@@ -182,6 +219,7 @@ Interaktive Lernwerkzeuge: Bildungsressourcen und Informationen, die sowohl Lern
 
 Sequence of main features:
 
+Data-Model:
 .....
 
 ### App Behaviour
@@ -192,6 +230,7 @@ App routes
 ### Design Decisions
 ...
 
+### Design Decisions
 ---
 
 ## Team Evaluation

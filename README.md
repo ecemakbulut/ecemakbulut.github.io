@@ -78,15 +78,7 @@ Wir, das ArtHub-Team, haben eine innovative und umfassende App für Kunstliebhab
 
 ArtHub ist eine unverzichtbare Ressource für alle, die sich für Kunst interessieren. Unsere Plattform richtet sich sowohl an Neulinge, die gerade erst in die Kunstwelt eintauchen, als auch an Experten, die ihr Wissen vertiefen möchten. Wir bieten nicht nur Informationen, sondern auch Inspiration und Bildung durch eine Vielzahl von Funktionen, die es den Nutzern ermöglichen, Kunstwerke zu entdecken, zu verstehen und zu schätzen.
 
-Die "Value Proposition" für dein Projekt ArtHub kann wie folgt beschrieben werden:
-
----
-
-## Value Proposition
-
-Wir, das ArtHub-Team, bieten Kunstliebhabern eine einzigartige Plattform, die den Zugang zur Welt der Kunst revolutioniert. Unsere App, ArtHub, ist mehr als nur ein digitales Kunstarchiv – sie ist ein interaktives und umfassendes Lernwerkzeug, das Kunstgeschichte zugänglich und spannend macht.
-
-Einzigartiger Nutzen
+**Einzigartiger Nutzen**
 
 *Umfassende Kunstdatenbank*: ArtHub bietet Zugang zu einer breiten Sammlung von Kunstwerken aus verschiedenen Epochen und Stilen. Nutzer können Kunstwerke aus der Renaissance, dem Barock, dem Kubismus und vielen weiteren kunsthistorischen Epochen entdecken.
 
@@ -96,7 +88,7 @@ Einzigartiger Nutzen
 
 *Bildung und Inspiration*: ArtHub dient als wertvolles Lernwerkzeug für Schüler, Studenten und Kunstinteressierte, indem es detaillierte Informationen und historische Kontexte zu den Kunstwerken bietet. 
 
-Einzigartigkeit
+**Einzigartigkeit**
 
 *Interaktive Funktionen*: Anders als andere Kunstarchive bietet ArtHub interaktive Lernwerkzeuge, die das Verständnis und die Wertschätzung für Kunst vertiefen. Nutzer können nicht nur Informationen konsumieren, sondern auch aktiv mit den Inhalten interagieren.
 
@@ -104,7 +96,7 @@ Einzigartigkeit
 
 *Umfassende Suchfunktion*: ArtHub bietet eine leistungsstarke Suchfunktion, die es Nutzern ermöglicht, gezielt nach Kunstwerken, Künstlern oder Epochen zu suchen und relevante Ergebnisse zu erhalten.
 
-Relevanz
+**Relevanz**
 
 *Für Kunstliebhaber*: ArtHub richtet sich an Kunstsammler, Studenten der Kunstgeschichte, Lehrer und alle, die sich für Kunst interessieren. Es bietet eine zentrale Anlaufstelle für umfassende und leicht zugängliche Informationen.
 

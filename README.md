@@ -228,9 +228,8 @@ modell
 App routes
 
 ### Design Decisions
-...
 
-### Design Decisions
+
 ---
 
 ## Team Evaluation

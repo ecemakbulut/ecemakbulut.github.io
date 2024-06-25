@@ -199,6 +199,7 @@ Bildung und Wissensvermittlung: Partnerschaften mit Bildungseinrichtungen und Ku
 - Datenmodell vervollständigen ggf. auch für die Favoritenliste
 - Design verbessern 
 - Code beenden
+  
 ---
 
 ## Technical Docs

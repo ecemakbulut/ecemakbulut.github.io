@@ -13,7 +13,7 @@
 
 ## Home
 
-# ArtHub
+# <span style="color: #ff0000;">ArtHub</span>
 
 Die ArtHub App ist eine innovative Plattform, die es Kunstinteressierten ermöglicht, in die faszinierende Welt der Kunst einzutauchen. ArtHub zeichnet sich durch seine benutzerfreundliche Oberfläche und einer Datenbank aus. Eine einzigartige Gelegenheit, verschiedene Kunstwerke aus verschiedenen Epochen und Künstlern zu entdecken. Ob für die Renaissance, das Barock, den Kubismus oder andere kunsthistorische Epochen – ArtHub steht euch zur Verfügung. Unsere App dient sowohl als Nachschlagewerk als auch als nützliches Lernwerkzeug. Es bietet nämlich vielfältige und nützliche Informationen über verschiedene Künstler und Zeitepochen. Benutzer haben die Möglichkeit, nach bestimmten Werken zu suchen, um mehr darüber zu erfahren und sich mit verschiedenen Perioden der Kunstgeschichte auseinanderzusetzen. Darüber hinaus ermöglicht es ihnen, ihr Wissen über Kunst zu vertiefen, was insbesondere für den Kunstunterricht oder ein studienbezogenes Fach von großem Nutzen ist. Demnach erfüllt unsere App eine doppelte Funktion und kann sowohl für Anfänger als auch für Experten von Nutzen sein.
 

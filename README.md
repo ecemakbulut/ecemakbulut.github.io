@@ -219,7 +219,7 @@ Suchfunktion: Gezielte Suche nach Künstlern oder Epochen zur effizienten Inform
 
 Umfassende Kunstdatenbank: Zugang zu einer breiten Palette an Informationen aus verschiedenen Epochen und Künstlern.
 
-Favoriten und Sammlungen: Möglichkeit, persönliche Favoriten zu markieren und Sammlungen von Kunstwerken zu erstellen.
+Favoriten und Sammlungen: Möglichkeit, persönliche Favoriten zu erstellen.
 
 Interaktive Lernwerkzeuge: Bildungsressourcen und Informationen, die sowohl Lernende als auch Kenner der Kunst unterstützen.
 

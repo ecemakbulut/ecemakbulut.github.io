@@ -220,8 +220,6 @@ Favoriten und Sammlungen: Möglichkeit, persönliche Favoriten zu markieren und 
 
 Interaktive Lernwerkzeuge: Bildungsressourcen und Informationen, die sowohl Lernende als auch Kenner der Kunst unterstützen.
 
-Sequence of main features:
-
 **Data-Model:**
 ![Data Model](Datamodel.jpg)
 

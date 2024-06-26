@@ -72,6 +72,19 @@ Last build: 18:25 | 23.06.2024
 ![Persona 2](Persona2.png)
 ![Persona 3](Persona3.jpg)
 ![Persona 4](Persona4.jpg)
+
+### Target user
+
+ArtHub richtet sich an eine vielfältige Zielgruppe von Kunstinteressierten, darunter:
+
+Kunstliebhaber und Sammler: Personen, die Kunstwerke sammeln oder sich für Kunst verschiedener Epochen und Stile interessieren.
+
+Studierende und Lehrkräfte: Studenten und Lehrer, die Kunstgeschichte studieren oder unterrichten und eine zuverlässige Quelle für Informationen und Inspiration suchen.
+
+Touristen und Kulturinteressierte: Besucher von Museen und Galerien, die ihr Verständnis und ihre Kenntnisse über Kunst erweitern möchten.
+
+Hobbykünstler und Kreative: Personen, die selbst künstlerisch tätig sind und nach Inspiration und Referenzen suchen.
+
 ### Value Proposition
 
 Wir, das ArtHub-Team, haben eine innovative und umfassende App für Kunstliebhaber entwickelt. ArtHub ist mehr als nur eine Plattform – es ist ein Tor zur Welt der Kunst. Unsere App bietet eine reichhaltige Sammlung von Kunstwerken aus verschiedenen Epochen und Stilen, die kunsthistorisch bedeutend sind. Von der Renaissance bis zur modernen Kunst, von Gemälden über Skulpturen bis zu digitalen Kunstwerken – ArtHub bietet einen umfassenden Überblick und detaillierte Informationen zu jedem Kunstwerk und Künstler.
@@ -118,17 +131,6 @@ Durch die Favoritenfunktion mit dem "Herz"-Button können Benutzer ihre persönl
 
 ArtHub ist darauf ausgelegt, Kunstinteressierte zu unterstützen, ihr Wissen zu erweitern, neue Künstler zu entdecken und eine reichhaltige Sammlung von Kunstwerken zu kuratieren, die sie inspirieren und bereichern.
 
-### Target user
-
-ArtHub richtet sich an eine vielfältige Zielgruppe von Kunstinteressierten, darunter:
-
-Kunstliebhaber und Sammler: Personen, die Kunstwerke sammeln oder sich für Kunst verschiedener Epochen und Stile interessieren.
-
-Studierende und Lehrkräfte: Studenten und Lehrer, die Kunstgeschichte studieren oder unterrichten und eine zuverlässige Quelle für Informationen und Inspiration suchen.
-
-Touristen und Kulturinteressierte: Besucher von Museen und Galerien, die ihr Verständnis und ihre Kenntnisse über Kunst erweitern möchten.
-
-Hobbykünstler und Kreative: Personen, die selbst künstlerisch tätig sind und nach Inspiration und Referenzen suchen.
 
 ### Customer journey
 

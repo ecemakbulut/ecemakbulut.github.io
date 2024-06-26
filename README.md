@@ -137,23 +137,26 @@ ArtHub ist darauf ausgelegt, Kunstinteressierte zu unterstützen, ihr Wissen zu 
 
 1. Einstiegspunkt:
    - Der Nutzer öffnet die ArtHub App.
+  
+2. Startseite:
+   - Der Nutzer wählt eins der zwei Optionen: Künstler oder Eoche
 
-2. Navigation und Suche:
+3. Navigation und Suche:
    - Der Nutzer navigiert durch das Hauptmenü und verwendet die Suchleiste, um nach einem Kunstwerk oder Künstler zu suchen.
 
-3. Suchergebnisse anzeigen:
+4. Suchergebnisse anzeigen:
    - Die App zeigt eine Liste relevanter Suchergebnisse an.
 
-4. Detailansicht anzeigen:
+5. Detailansicht anzeigen:
    - Der Nutzer wählt ein Kunstwerk oder einen Künstler aus, um detaillierte Informationen wie Titel, Künstler, Epoche und Beschreibung zu sehen.
 
-5. Favoriten markieren:
+6. Favoriten markieren:
    - Der Nutzer markiert Kunstwerke oder Künstler als Favoriten durch den "Herz"-Button.
 
-6. Weiteres Entdecken:
+7. Weiteres Entdecken:
    - Der Nutzer erkundet weiter die App, um mehr Kunstwerke zu entdecken und mehr über Künstler und Epochen zu erfahren.
 
-7. Abschluss:
+8. Abschluss:
    - Der Nutzer beendet seine Aufgabe mit einem vertieften Verständnis und einem erweiterten Interesse an Kunst.
 
 Diese vereinfachte Customer Journey zeigt den typischen Ablauf eines Nutzers innerhalb der ArtHub App, beginnend beim Einstieg bis zum Abschluss einer Suche oder Entdeckung.
@@ -212,9 +215,9 @@ Bildung und Wissensvermittlung: Partnerschaften mit Bildungseinrichtungen und Ku
 ### App Structure
 Main Features:
 
-Suchfunktion: Gezielte Suche nach Kunstwerken, Künstlern oder Epochen zur effizienten Informationssuche
+Suchfunktion: Gezielte Suche nach Künstlern oder Epochen zur effizienten Informationssuche
 
-Umfassende Kunstdatenbank: Zugang zu einer breiten Palette von Kunstwerken aus verschiedenen Epochen und Stilen
+Umfassende Kunstdatenbank: Zugang zu einer breiten Palette an Informationen aus verschiedenen Epochen und Künstlern.
 
 Favoriten und Sammlungen: Möglichkeit, persönliche Favoriten zu markieren und Sammlungen von Kunstwerken zu erstellen.
 

@@ -35,7 +35,7 @@ Die oben genannten Teammitglieder erklären an Eides statt:
 
 > Diese Arbeit wurde selbständig und eigenhändig erstellt. Die den benutzten Quellen wörtlich oder inhaltlich entommenen Stellen sind als solche kenntlich gemacht. Diese Erklärung gilt für jeglichen Inhalt und umfasst sowohl diese Dokumentation als auch den als Projektergebnis eingereichten Quellcode.
 
-Last build: 18:25 | 23.06.2024 
+Last build: 15:25 | 02.08.2024 
 
 ---
 

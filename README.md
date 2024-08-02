@@ -137,51 +137,51 @@ Favoriten und Sammlungen: Möglichkeit, persönliche Favoriten zu erstellen
 ![Data Model](appbehaviour.jpg)
 
 ### App Routes
-1. Startseite
+**1. Startseite**
    
-Route:
+Route: /
 
-Methods:
+Methods: GET
 
-Purpose:
+Purpose: Zeigt die Startseite der Anwendung an.
 
 Output:
 ![Design1](startseite.png)
 
-2. Künstler
+**2. Künstler**
    
-Route:
+Route: /Kuenstler
 
-Methods:
+Methods: GET
 
-Purpose:
+Purpose: Die Künstler-Seite rendern.
 
 Output:
 ![Design1](Kunstler.png)
 
-3. Epochen
+**3. Epochen**
    
-Route:
+Route: /Epoche
 
-Methods:
+Methods: GET
 
-Purpose:
+Purpose: Die Epoche-Seite rendern.
 
 Output:
 ![Design1](epochen.png)
 
-4. Suchfunktion
+**4. Suchfunktion**
    
-Route:
+Route: N/A
 
-Methods:
+Methods: handleSearch
 
-Purpose:
+Purpose: dient der Benutzereingabe im Suchfeld.
 
 Output:
 ![Design1](suchfunktion.png)
 
-4.1 Suchfunktion
+**4.1 Suchfunktion**
 
 Route:
 
@@ -192,7 +192,7 @@ Purpose:
 Output:
 ![Design1](Suchfunktion2.png)
 
-4.2 Suchfunktion
+**4.2 Suchfunktion**
 
 Route:
 
@@ -203,7 +203,7 @@ Purpose:
 Output:
 ![Design1](suchfunktion3.png)
 
-5. Favoriten
+**5. Favoriten**
    
 Route:
 
@@ -214,7 +214,7 @@ Purpose:
 Output:
 ![Design1](favoriten.png)
 
-5.1 Favoriten
+**5.1 Favoriten**
 
 Route:
 
@@ -225,7 +225,7 @@ Purpose:
 Output:
 ![Design1](favoriten2.png)
 
-5.2 Favoriten
+**5.2 Favoriten**
 
 Route:
 
@@ -236,7 +236,7 @@ Purpose:
 Output:
 ![Design1](favoriten3.png)
 
-5.3 Favoriten
+**5.3 Favoriten**
 
 Route:
 

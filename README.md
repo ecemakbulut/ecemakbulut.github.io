@@ -2,10 +2,10 @@
 <details open markdown="block">
 <summary>Inhaltsverzeichnis</summary>
 
-1. [Startseite](#home)
-2. [Wertversprechen](#value-proposition)
-3. [Technische Dokumente](#technical-docs)
-4. [Teamevaluierung](#team-evaluation)
+1. [Startseite](#startseite)
+2. [Wertversprechen](#wertversprechen)
+3. [Technische Dokumente](#technische-dokumente)
+4. [Teamevaluierung](#teamevaluierung)
 
 </details>
 
@@ -44,10 +44,10 @@ Last build: 15:25 | 02.08.2024
 <details open markdown="block">
 <summary>Inhaltsverzeichnis</summary>
 
-+ [Beschreibung](#description)
++ [Beschreibung](#beschreibung)
 + [Persona](#persona)
-+ [Wertversprechen](#value-proposition)
-+ [Ziele](#goals)
++ [Wertversprechen](#wertversprechen)
++ [Ziele](#ziele)
 
 </details>
 
@@ -110,11 +110,11 @@ Favoritenverwaltung: Einführung einer Funktion zum Markieren und Verwalten von 
 <details open markdown="block">
 <summary>Inhaltsverzeichnis</summary>
 
-+ [App Struktur](#app-structure)
-+ [App Verhalten](#app-behaviour)
-+ [App Referenzen](#app-references)
-+ [Design Entscheidungen](#design-decisions)
-+ [Quellen](#sources)
++ [App Struktur](#app-struktur)
++ [App Verhalten](#app-verhalten)
++ [App Referenzen](#app-referenzens)
++ [Design Entscheidungen](#design-Entscheidungen)
++ [Quellen](#Quellen)
 
 </details>
 

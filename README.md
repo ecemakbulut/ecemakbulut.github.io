@@ -46,7 +46,7 @@ Last build: 15:25 | 02.08.2024
 
 + [Beschreibung](#beschreibung)
 + [Persona](#persona)
-+ [Wertversprechen](#wertversprechen)
++ [Wert Versprechen](#wert-versprechen)
 + [Ziele](#ziele)
 
 </details>
@@ -69,7 +69,7 @@ Kunstliebhaber und Anfänger: die Kunstwerke sammeln oder sich für Kunst versch
 Schüler und Studierende: die Kunstunterricht haben und eine zuverlässige Quelle für Informationen suchen.
 
 
-### Wertversprechen
+### Wert Versprechen
 
 Unsere App bietet Schülern, Studenten und Anfängern eine klare Übersicht über die Kunstepochen und berühmte Künstler. Emilia und Sean gehören zu zwei Unterkategorien der Zielgruppe mit verschiedenen Interessen und Wünschen. Dennoch können beide von der ArtHub-Seite profitieren, indem sie auf die Daten zugreifen: Emilia für ihr Studium und Sean für sein eigenes Interesse in seiner Freizeit.
 
@@ -338,8 +338,10 @@ Die Präsentation wurde mit Hilfe unserer Website vorgetragen.
 ## Teamevaluierung 
 
 Verbesserungen:
+
 Wir haben einige Punkte, die wir verbessern könnten: Zum einen das Design, das farbiger gestaltet werden könnte. 
 Zusätzlich könnte die Möglichkeit geboten werden, die Favoritenliste zu löschen und sicherzustellen, dass die Werke in der Favoritenliste nicht doppelt angezeigt werden, sondern nur einmal.
 
-Beiträge
+Beiträge:
+
 Wir beide haben am Projekt zusammengearbeitet. Da wir nur zu zweit waren, haben wir uns wöchentlich getroffen und gemeinsam am Projekt weitergearbeitet. Wir empfanden die Aufteilung als fair, da wir in jedem Punkt mitgewirkt haben.

@@ -136,7 +136,7 @@ Favoriten und Sammlungen: Möglichkeit, persönliche Favoriten zu erstellen
 ### App Behaviour
 ![Data Model](appbehaviour.jpg)
 
-### App References
+### App Routes
 App routes
 
 ### Design Decisions

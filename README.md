@@ -76,13 +76,11 @@ Unsere App bietet Schülern, Studenten und Anfängern eine klare Übersicht übe
 
 **Einzigartiger Nutzen**
 
-*Umfassende Kunstdatenbank*: ArtHub bietet Zugang zu einer breiten Sammlung von Kunstwerken aus verschiedenen Epochen und Stilen.
+Benutzerfreundliche Oberfläche: Unsere Benutzeroberfläche ermöglicht eine Bereitstellung von Informationen zu Kunstepochen und Künstlern.
 
-*Benutzerfreundliche Oberfläche*: Unsere Benutzeroberfläche ermöglicht eine Bereitstellung von Informationen zu Kunstepochen und Künstlern.
+Personalisierte Sammlungen: Mit der Favoritenfunktion können Nutzer ihre eigene Sammlung erstellen. Diese Funktion ermöglicht es, Informationen schneller wiederzufinden.
 
-*Personalisierte Sammlungen*: Mit der Favoritenfunktion können Nutzer ihre eigene Sammlung erstellen. Diese Funktion ermöglicht es, Informationen schneller wiederzufinden.
-
-*Bildung und Inspiration*: ArtHub dient als wertvolles Lernwerkzeug für Schüler, Studenten und Kunstinteressierte/-anfänger, indem es Informationen und historische Kontexte zu den Künstlern und Epochen bietet. 
+Bildung und Inspiration: ArtHub dient als wertvolles Lernwerkzeug für Schüler, Studenten und Kunstinteressierte/-anfänger, indem es Informationen und historische Kontexte zu den Künstlern und Epochen bietet. 
 
 **The problem**
 
@@ -90,8 +88,8 @@ Es kann oftmals schwierig sein eine App zu finden, die leicht zugängliche Infor
 
 **Our solution**
 
-ArtHub löst diese Probleme, indem es eine benutzerfreundliche Plattform bietet, die ermöglicht, leicht durch verschiedene Epochen und Kunststile zu navigieren. Die App bietet eine leistungsstarke Suchfunktion, die es Nutzern ermöglicht, gezielt nach Kunstwerken und Künstlern zu suchen. 
-Durch die Favoritenfunktion mit dem "Herz"-Button können Nutzer ihre persönlichen Sammlungen von bevorzugten Künstlern oder Epochen erstellen und verwalten.
+ArtHub löst diese Probleme, indem es eine benutzerfreundliche Plattform bietet, die ermöglicht, leicht durch verschiedene Epochen und Kunststile zu navigieren. Die App bietet eine Suchfunktion, die es Nutzern ermöglicht, gezielt nach Kunstwerken und Künstlern zu suchen. 
+Durch die Favoritenfunktion mit dem "Herz"-Button können Nutzer ihre persönlichen Sammlungen von bevorzugten Künstlern oder Epochen erstellen.
 
 ### Goals
 
@@ -99,13 +97,12 @@ Die Ziele der ArtHub App umfassen:
 
 Benutzerfreundlichkeit: Bereitstellung einer intuitiven Benutzeroberfläche, die es Nutzern ermöglicht, leicht durch verschiedene Epochen und Künstler zu navigieren.
 
-Informationsreiches Erlebnis: Bereitstellung umfassender Informationen zu Kunstwerken, einschließlich Titel, Künstler, Epoche und Beschreibung, um das Verständnis und die Wertschätzung für Kunst zu fördern.
+Informationsreiches Erlebnis: Bereitstellung von einfach gehaltenen Informationen zu Kunstwerken, einschließlich Titel, Künstler, Epoche und Beschreibung, um das Verständnis und die Wertschätzung für Kunst zu fördern.
 
-Effektive Suche: Implementierung einer leistungsstarken Suchfunktion, die es Nutzern ermöglicht, gezielt nach Kunstwerken und Künstlern zu suchen und relevante Ergebnisse zu erhalten.
+Effektive Suche: Implementierung einer Suchfunktion, die es Nutzern ermöglicht, gezielt nach Kunstwerken und Künstlern zu suchen und relevante Ergebnisse zu erhalten.
 
 Favoritenverwaltung: Einführung einer Funktion zum Markieren und Verwalten von Favoriten, um Nutzern zu ermöglichen, persönliche Sammlungen von bevorzugten Kunstwerken und Künstlern zu erstellen.
 
-Erweiterung des Kunstwissens: Unterstützung von Kunstinteressierten, ihr Wissen über verschiedene Epochen, Stile und Künstler zu erweitern und zu vertiefen.
   
 ---
 
@@ -128,7 +125,7 @@ Erweiterung des Kunstwissens: Unterstützung von Kunstinteressierten, ihr Wissen
 
 Suchfunktion: Gezielte Suche nach Künstlern oder Epochen
 
-Umfassende Kunstdatenbank: Zugang zu einer breiten Palette an Informationen aus verschiedenen Epochen und Künstlern
+Kunstdatenbank: Zugang an Informationen aus verschiedenen Epochen und Künstlern
 
 Favoriten und Sammlungen: Möglichkeit, persönliche Favoriten zu erstellen
 
@@ -312,12 +309,35 @@ Wir haben die Informationen so angepasst und gekürzt, dass die wesentlichen Inf
 
 ### Sources
 
+Bücher:
+> Programmieren lernen mit Python und JavaScript von Joachim L. Zuckarelli (2021)
+
+Internetseiten:
+> https://learn.microsoft.com/en-us/training/paths/beginner-python/
+ 
+> https://www.w3schools.com
+
+> https://flask-sqlalchemy.palletsprojects.com/en/latest/models/
+
+> https://dev.to/am20dipi/how-to-build-a-simple-search-bar-in-javascript-4onf
+
+Youtube:
+> https://www.youtube.com/watch?v=l9u_vm9aAmM
+
+ChatGPT:
+> Die Informationen über die verschiedenen Epochen und Künstler wurden durch die Nutzung von ChatGPT gewonnen.
+ 
+> ChatGPT wurde verwendet, um bestimmte Fehlermeldungen auszuwerten und Vorschläge zur Lösung zu machen.
+
+> Bei der Entwicklung und Verbesserung der Favoritenseite hat ChatGPT geholfen.
+
 ---
 
 ## Team Evaluation
 
 Improvements:
-Es ist herausfordernd gewesen
+Wir haben einige Punkte, die wir verbessern könnten: Zum einen das Design, das farbiger gestaltet werden könnte. 
+Zusätzlich könnte die Möglichkeit geboten werden, die Favoritenliste zu löschen und sicherzustellen, dass die Werke in der Favoritenliste nicht doppelt angezeigt werden, sondern nur einmal.
 
 Contributions:
-Wir beide haben am Projekt zusammengearbeitet. Da wir nur zur zweit waren, haben wir uns wöchentlich getroffen und am Projekt weitergearbeitet. Wir empfinden die Aufteilung als fair, da wir beide in jedem Punkt mitgewirkt haben. 
+Wir beide haben am Projekt zusammengearbeitet. Da wir nur zu zweit waren, haben wir uns wöchentlich getroffen und gemeinsam am Projekt weitergearbeitet. Wir empfanden die Aufteilung als fair, da wir in jedem Punkt mitgewirkt haben.

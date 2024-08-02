@@ -208,19 +208,27 @@ Output:
 ![Design1](favoriten4.png)
 
 ### Design Decisions
-Current Design:
-![Design1](Design1.jpg)
-![Design2](Design2.jpg)
-![Design3](Design3.jpg)
-![Design4](Design4.jpg)
+**Database Tool**
+Problem: Herausfinden, welches Tool wir für unsere Datenbank verwenden wollen, um auf diese zuzugreifen.
+Status: Fertig
+
+Plain SQL und SQL Alchemy:
+> Plain SQL 
+Vorteile: Vorwissen
+Nachteile: manuelle Erstellung von Abfragen + Ergebnismappings --> potenziell fehleranfälliger Code
+> SQL Alchemy
+Vorteile: Code lesbarer und einfacher, Unterstützung für verschiedene DBMS
+Nachteile: neu erlernen
+
+--> Bevorzugen SQL Alchemy, um zum einen die Vorteile der Abstraktion und der Datenbankunabhängigkeit zu nutzen und zum anderen, um noch etwas Neues dazu zu lernen.  
+
+
 
 ![DD1](DD1.jpg)
 
 ---
 
 ## Team Evaluation
-
-Goals:
 
 Improvements:
 

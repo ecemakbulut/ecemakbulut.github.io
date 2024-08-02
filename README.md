@@ -138,27 +138,31 @@ Favoriten und Sammlungen: Möglichkeit, persönliche Favoriten zu erstellen
 
 ### App Routes
 1. Startseite
+   
 Route:
+
 Methods:
+
 Purpose:
+
 Output:
 ![Design1](startseite.png)
 
-2. Künstler
+3. Künstler
 Route:
 Methods:
 Purpose:
 Output:
 ![Design1](künstler.png)
 
-3. Epochen
+4. Epochen
 Route:
 Methods:
 Purpose:
 Output:
 ![Design1](epochen.png)
 
-4. Suchfunktion
+5. Suchfunktion
 Route:
 Methods:
 Purpose:
@@ -209,22 +213,61 @@ Output:
 
 ### Design Decisions
 **Database Tool**
+
 Problem: Herausfinden, welches Tool wir für unsere Datenbank verwenden wollen, um auf diese zuzugreifen.
+
 Status: Fertig
 
 Plain SQL und SQL Alchemy:
 > Plain SQL 
-Vorteile: Vorwissen
-Nachteile: manuelle Erstellung von Abfragen + Ergebnismappings --> potenziell fehleranfälliger Code
+>> Vorteile: Vorwissen
+>>> Nachteile: manuelle Erstellung von Abfragen + Ergebnismappings --> potenziell fehleranfälliger Code
+
+
 > SQL Alchemy
-Vorteile: Code lesbarer und einfacher, Unterstützung für verschiedene DBMS
-Nachteile: neu erlernen
+>> Vorteile: Code lesbarer und einfacher, Unterstützung für verschiedene DBMS
+>>> Nachteile: neu erlernen
 
---> Bevorzugen SQL Alchemy, um zum einen die Vorteile der Abstraktion und der Datenbankunabhängigkeit zu nutzen und zum anderen, um noch etwas Neues dazu zu lernen.  
+ ➔ Bevorzugen SQL Alchemy, um zum einen die Vorteile der Abstraktion und der Datenbankunabhängigkeit zu nutzen und zum anderen, um noch etwas Neues dazu zu lernen.  
+ 
+
+**Suchfunktion und Favoritenseite**
+
+Problem: Wie können wir am besten die Suchfunktion und Favoritenseite anpassen?
+
+Status: Fertig
+
+Ziel: Verbesserung der Benutzerfreundlichkeit durch ein vertrautes Layout
+
+Suchfunktion:
+> Neue Version: Suchleiste wurde im oberen Bereich der Website platziert, sodass Nutzer sie sofort sehen und nutzen können
+>> Alte Version: Suchfunktion wurde als Icon am unteren Rand der App plaziert
+
+Favoritenseite:
+> Neue Version: Favoritenseite wurde neu gestaltet und in das Hauptmenü integriert ➔ Nutzer können über ein leicht zugängliches Symbol im oberen Bereich der Website auf die Favoriten zugreifen
+>> Alte Version: Favoriten waren über ein Icon am unteren Bilschirmrand zugänglich
 
 
+**Zielgruppe**
 
-![DD1](DD1.jpg)
+Problem: Welche Zielgruppe trifft auf unsere App zu? Inwiefern müssen wir es anpassen?
+
+Status: Fertig
+
+Ziel: genaue Zielgruppe festlegen
+
+Zielgruppe bezieht sich auf auf Schüler, Student und Anfänger, die einen Überblick über Kunst bekommen wollen. 
+
+
+**Informationen und Daten**
+
+Problem: Wie wollen wir die Daten und Informationen darstellen?
+
+Status: Fertig
+
+Ziel: übersichtliche Darstellung
+
+Wir haben die Informationen so angepasst und gekürzt, dass die wesentlichen Informationen zur Verfügung gestellt werden ohne, dass der Nutzer das Gefühl bekommt von zu viel Text überflutet zu werden. Unser Ziel ist es, klare und prägnante Informationen zu liefern, die leicht verständlich und sofort erfassbar sind.
 
 ---
 

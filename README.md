@@ -122,21 +122,20 @@ Erweiterung des Kunstwissens: Unterstützung von Kunstinteressierten, ihr Wissen
 </details>
 
 ### App Structure
-Main Features:
+**Main Features:**
 
-Suchfunktion: Gezielte Suche nach Künstlern oder Epochen zur effizienten Informationssuche
+Suchfunktion: Gezielte Suche nach Künstlern oder Epochen
 
-Umfassende Kunstdatenbank: Zugang zu einer breiten Palette an Informationen aus verschiedenen Epochen und Künstlern.
+Umfassende Kunstdatenbank: Zugang zu einer breiten Palette an Informationen aus verschiedenen Epochen und Künstlern
 
-Favoriten und Sammlungen: Möglichkeit, persönliche Favoriten zu erstellen.
-
-Interaktive Lernwerkzeuge: Bildungsressourcen und Informationen, die sowohl Lernende als auch Kenner der Kunst unterstützen.
+Favoriten und Sammlungen: Möglichkeit, persönliche Favoriten zu erstellen
 
 **Data-Model:**
 ![Data Model](Datamodel.jpg)
 
 ### App Behaviour
-modell
+![Data Model](appbehaviour.jpg)
+
 ### App References
 App routes
 

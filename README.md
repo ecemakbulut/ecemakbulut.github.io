@@ -61,7 +61,6 @@ Last build: 15:25 | 02.08.2024
 ### Persona
 
 ![Persona 1](Persona1.png)
-![Persona 4](Persona4.jpg)
 
 ### Target user
 

@@ -132,7 +132,7 @@ Favoriten und Sammlungen: Möglichkeit, persönliche Favoriten zu erstellen
 ![Data Model](Datamodel.png)
 
 ### App Behaviour
-![Data Model](appbehaviour.jpg)
+![Data Model](appbehaviour.png)
 
 ### App Routes
 

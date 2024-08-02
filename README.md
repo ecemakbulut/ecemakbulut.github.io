@@ -11,8 +11,6 @@
 
 **Suche:** <input type="text" id="searchInput" placeholder="Suche im Inhaltsverzeichnis..." onkeyup="searchTOC()">
 
-## Home
-
 ## Team members
 
 ### Ecem Akbulut

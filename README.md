@@ -137,7 +137,75 @@ Favoriten und Sammlungen: Möglichkeit, persönliche Favoriten zu erstellen
 ![Data Model](appbehaviour.jpg)
 
 ### App Routes
-App routes
+1. Startseite
+Route:
+Methods:
+Purpose:
+Output:
+![Design1](startseite.png)
+
+2. Künstler
+Route:
+Methods:
+Purpose:
+Output:
+![Design1](künstler.png)
+
+3. Epochen
+Route:
+Methods:
+Purpose:
+Output:
+![Design1](epochen.png)
+
+4. Suchfunktion
+Route:
+Methods:
+Purpose:
+Output:
+![Design1](suchfunktion.png)
+
+4.1 Suchfunktion
+Route:
+Methods:
+Purpose:
+Output:
+![Design1](suchfunktion2.png)
+
+4.2 Suchfunktion
+Route:
+Methods:
+Purpose:
+Output:
+![Design1](suchfunktion3.png)
+
+5. Favoriten
+Route:
+Methods:
+Purpose:
+Output:
+![Design1](favoriten.png)
+
+5.1 Favoriten
+Route:
+Methods:
+Purpose:
+Output:
+![Design1](favoriten2.png)
+
+5.2 Favoriten
+Route:
+Methods:
+Purpose:
+Output:
+![Design1](favoriten3.png)
+
+5.3 Favoriten
+Route:
+Methods:
+Purpose:
+Output:
+![Design1](favoriten4.png)
 
 ### Design Decisions
 Current Design:

@@ -113,8 +113,8 @@ Favoritenverwaltung: Einführung einer Funktion zum Markieren und Verwalten von 
 + [App Struktur](#app-struktur)
 + [App Verhalten](#app-verhalten)
 + [App Referenzen](#app-referenzens)
-+ [Design Entscheidungen](#design-Entscheidungen)
-+ [Quellen](#Quellen)
++ [Design Entscheidungen](#design-entscheidungen)
++ [Quellen](#quellen)
 
 </details>
 
@@ -134,7 +134,7 @@ Favoriten und Sammlungen: Möglichkeit, persönliche Favoriten zu erstellen
 ### App Verhalten
 ![Data Model](appbehaviour.png)
 
-### App Route
+### App Referenzen
 
 **1. Startseite**
    
@@ -335,7 +335,7 @@ Die Präsentation wurde mit Hilfe unserer Website vorgetragen.
 
 ---
 
-## Team Evaluierung 
+## Teamevaluierung 
 
 Verbesserungen:
 Wir haben einige Punkte, die wir verbessern könnten: Zum einen das Design, das farbiger gestaltet werden könnte. 

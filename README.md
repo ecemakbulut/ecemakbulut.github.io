@@ -247,6 +247,18 @@ Zweck: Favoriten zur Datenbank hinzugefügt.
 Output:
 ![Design1](favoriten4.png)
 
+**5.4 Favoriten**
+
+Route: /add_to_favorites
+
+Methoden: GET
+
+Zweck: Favoriten werden in der Favoritenliste angezeigt.
+
+Output:
+![Design1](favoriten5.png)
+
+
 ### Design Entscheidungen
 **Datenbank Tool**
 

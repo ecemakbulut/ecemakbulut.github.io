@@ -330,6 +330,9 @@ ChatGPT:
 
 > Bei der Entwicklung und Verbesserung der Favoritenseite hat ChatGPT geholfen.
 
+### Presentation
+Die Präsentation wurde mit Hilfe unserer Website vorgetragen.
+
 ---
 
 ## Team Evaluation

@@ -131,7 +131,7 @@ Umfassende Kunstdatenbank: Zugang zu einer breiten Palette an Informationen aus 
 Favoriten und Sammlungen: Möglichkeit, persönliche Favoriten zu erstellen
 
 **Data-Model:**
-![Data Model](Datamodel.jpg)
+![Data Model](Datamodel.png)
 
 ### App Behaviour
 ![Data Model](appbehaviour.jpg)

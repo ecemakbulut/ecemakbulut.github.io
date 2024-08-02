@@ -170,7 +170,7 @@ Route:
 Methods:
 Purpose:
 Output:
-![Design1](suchfunktion2.png)
+![Design1](Suchfunktion2.png)
 
 4.2 Suchfunktion
 Route:

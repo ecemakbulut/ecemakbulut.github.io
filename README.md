@@ -56,10 +56,9 @@ Last build: 15:25 | 02.08.2024
 ### Description
 
 + Die ArtHub App ist eine informative Kunst App für Kunstliebhaber/innen
-+ Kernfunktionen bestehen aus einer Startseite mit Kunstepoche, einer Suchfunktion und einer Favoritensammlung
-+ wichtige Informationen und Daten werden übersichtlich und unkompliziert angezeigt
++ Kernfunktionen bestehen aus einer Startseite mit Künstlern und Epochen, einer Suchfunktion und einer Favoritensammlung
 + User können Informationen unter der Favoritenliste speichern, um schneller auf diese zugreifen zu können
-+ Die App bezieht sich auf eine Altersgruppe von klein bis gross: 12-90+ Jahre
++ Die App bezieht sich auf eine Altersgruppe von klein bis gross: 10-90+ Jahre
 
 ### Persona
 
@@ -74,7 +73,7 @@ ArtHub richtet sich an eine vielfältige Zielgruppe von Kunstinteressierten, dar
 
 Kunstliebhaber: Personen, die Kunstwerke sammeln oder sich für Kunst verschiedener Epochen und Stile interessieren.
 
-Studierende und Lehrkräfte: Studenten und Lehrer, die Kunstgeschichte studieren oder unterrichten und eine zuverlässige Quelle für Informationen und Inspiration suchen.
+Lehrkräfte und Studierende: die Kunstgeschichte studieren / unterrichten und eine zuverlässige Quelle für Informationen und Inspiration suchen.
 
 Hobbykünstler und Kreative: Personen, die selbst künstlerisch tätig sind und nach Inspiration und Referenzen suchen.
 

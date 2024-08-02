@@ -284,6 +284,7 @@ Favoritenseite:
 > Neue Version: Favoritenseite wurde neu gestaltet und in das Hauptmenü integriert ➔ Nutzer können über ein leicht zugängliches Symbol im oberen Bereich der Website auf die Favoriten zugreifen
 >> Alte Version: Favoriten waren über ein Icon am unteren Bilschirmrand zugänglich
 
+➔ Für die Umsetzung haben wir Java-Script verwendet
 
 **Zielgruppe**
 

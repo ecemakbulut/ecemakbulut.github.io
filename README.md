@@ -118,10 +118,12 @@ Erweiterung des Kunstwissens: Unterstützung von Kunstinteressierten, ihr Wissen
 + [App Behaviour](#app-behaviour)
 + [App References](#app-references)
 + [Design Decisions](#design-decisions)
++ [Sources](#sources)
 
 </details>
 
 ### App Structure
+
 **Main Features:**
 
 Suchfunktion: Gezielte Suche nach Künstlern oder Epochen
@@ -137,6 +139,7 @@ Favoriten und Sammlungen: Möglichkeit, persönliche Favoriten zu erstellen
 ![Data Model](appbehaviour.jpg)
 
 ### App Routes
+
 **1. Startseite**
    
 Route: /
@@ -229,7 +232,7 @@ Output:
 
 Route: /get_favorites
 
-Methods= GET
+Methods: GET
 
 Purpose: Zur Favoritenliste hinzufügen
 
@@ -307,11 +310,14 @@ Ziel: übersichtliche Darstellung
 
 Wir haben die Informationen so angepasst und gekürzt, dass die wesentlichen Informationen zur Verfügung gestellt werden ohne, dass der Nutzer das Gefühl bekommt von zu viel Text überflutet zu werden. Unser Ziel ist es, klare und prägnante Informationen zu liefern, die leicht verständlich und sofort erfassbar sind.
 
+### Sources
+
 ---
 
 ## Team Evaluation
 
 Improvements:
+Es ist herausfordernd gewesen
 
 Contributions:
-
+Wir beide haben am Projekt zusammengearbeitet. Da wir nur zur zweit waren, haben wir uns wöchentlich getroffen und am Projekt weitergearbeitet. Wir empfinden die Aufteilung als fair, da wir beide in jedem Punkt mitgewirkt haben. 

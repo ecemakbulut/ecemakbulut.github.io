@@ -183,66 +183,67 @@ Output:
 
 **4.1 Suchfunktion**
 
-Route:
+Route: /Barock
 
-Methods:
+Methods: GET
 
-Purpose:
+Purpose: rendert die HTML-Seite EpocheBarock.html, die Informationen über die Epoche Barock anzeigt.
 
 Output:
 ![Design1](Suchfunktion2.png)
 
 **4.2 Suchfunktion**
 
-Route:
+Route: N/A
 
-Methods:
+Methods: alert('Keine Ergebnisse gefunden.'); 
 
-Purpose:
+Purpose: Wenn die Suchleiste keiner Epoche bzw. Künstler entspricht wird die Meldung angezeigt
 
 Output:
 ![Design1](suchfunktion3.png)
 
 **5. Favoriten**
    
-Route:
+Route: /Favoriten
 
-Methods:
+Methods: GET
 
-Purpose:
+Purpose: Favoritenseite auf der Startseite anzeigen
 
 Output:
 ![Design1](favoriten.png)
 
 **5.1 Favoriten**
 
-Route:
+Route: /Favoriten
 
-Methods:
+Methods: GET
 
-Purpose:
+Purpose: Favoriten-Funktion rendert die HTML-Seite Favoriten.html
 
 Output:
 ![Design1](favoriten2.png)
 
 **5.2 Favoriten**
 
-Route:
+Route: /get_favorites
 
-Methods:
+Methods= GET
 
-Purpose:
+Purpose: Zur Favoritenliste hinzufügen
 
 Output:
+
 ![Design1](favoriten3.png)
 
 **5.3 Favoriten**
 
-Route:
+Route: /add_to_favorites
 
-Methods:
+Methods: POST
 
-Purpose:
+Purpose: Favoriten zur Datenbank hinzugefügt.
 
 Output:
 ![Design1](favoriten4.png)

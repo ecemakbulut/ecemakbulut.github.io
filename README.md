@@ -2,16 +2,16 @@
 <details open markdown="block">
 <summary>Inhaltsverzeichnis</summary>
 
-1. [Home](#home)
-2. [Value Proposition](#value-proposition)
-3. [Technical Docs](#technical-docs)
-4. [Team Evaluation](#team-evaluation)
+1. [Startseite](#home)
+2. [Wertversprechen](#value-proposition)
+3. [Technische Dokumente](#technical-docs)
+4. [Teamevaluierung](#team-evaluation)
 
 </details>
 
 **Suche:** <input type="text" id="searchInput" placeholder="Suche im Inhaltsverzeichnis..." onkeyup="searchTOC()">
 
-## Team members
+## Teammitglieder
 
 ### Ecem Akbulut
 
@@ -39,19 +39,19 @@ Last build: 15:25 | 02.08.2024
 
 ---
 
-## Value Proposition
+## Wertversprechen
 
 <details open markdown="block">
 <summary>Inhaltsverzeichnis</summary>
 
-+ [Description](#description)
++ [Beschreibung](#description)
 + [Persona](#persona)
-+ [Value Proposition](#value-proposition)
-+ [Goals](#goals)
++ [Wertversprechen](#value-proposition)
++ [Ziele](#goals)
 
 </details>
 
-### Description
+### Beschreibung
 
 + Die ArtHub App ist eine informative Kunst App für Kunstliebhaber/innen
 + Kernfunktionen bestehen aus einer Startseite mit Künstlern und Epochen, einer Suchfunktion und einer Favoritensammlung
@@ -62,14 +62,14 @@ Last build: 15:25 | 02.08.2024
 
 ![Persona 1](Persona1.png)
 
-### Target user
+### Zielgruppe
 
 Kunstliebhaber und Anfänger: die Kunstwerke sammeln oder sich für Kunst verschiedener Epochen und Stile interessieren
 
 Schüler und Studierende: die Kunstunterricht haben und eine zuverlässige Quelle für Informationen suchen.
 
 
-### Value Proposition
+### Wertversprechen
 
 Unsere App bietet Schülern, Studenten und Anfängern eine klare Übersicht über die Kunstepochen und berühmte Künstler. Emilia und Sean gehören zu zwei Unterkategorien der Zielgruppe mit verschiedenen Interessen und Wünschen. Dennoch können beide von der ArtHub-Seite profitieren, indem sie auf die Daten zugreifen: Emilia für ihr Studium und Sean für sein eigenes Interesse in seiner Freizeit.
 
@@ -81,16 +81,16 @@ Personalisierte Sammlungen: Mit der Favoritenfunktion können Nutzer ihre eigene
 
 Bildung und Inspiration: ArtHub dient als wertvolles Lernwerkzeug für Schüler, Studenten und Kunstinteressierte/-anfänger, indem es Informationen und historische Kontexte zu den Künstlern und Epochen bietet. 
 
-**The problem**
+**Problem**
 
 Es kann oftmals schwierig sein eine App zu finden, die leicht zugängliche Informationen über Künstler und Kunstwerke aus verschiedenen Epochen bietet.Bestehende Ressourcen sind oftmals schwer zu navigieren oder zu verstehen. Es fehlt eine unkomplizierte, benutzerfreundliche Plattform, die eine einfache Suche, detaillierte Informationen und die Möglichkeit bietet, Favoriten zu speichern. 
 
-**Our solution**
+**Unsere Lösung**
 
 ArtHub löst diese Probleme, indem es eine benutzerfreundliche Plattform bietet, die ermöglicht, leicht durch verschiedene Epochen und Kunststile zu navigieren. Die App bietet eine Suchfunktion, die es Nutzern ermöglicht, gezielt nach Kunstwerken und Künstlern zu suchen. 
 Durch die Favoritenfunktion mit dem "Herz"-Button können Nutzer ihre persönlichen Sammlungen von bevorzugten Künstlern oder Epochen erstellen.
 
-### Goals
+### Ziele
 
 Die Ziele der ArtHub App umfassen:
 
@@ -105,20 +105,20 @@ Favoritenverwaltung: Einführung einer Funktion zum Markieren und Verwalten von 
   
 ---
 
-## Technical Docs
+## Technische Dokumente
 
 <details open markdown="block">
 <summary>Inhaltsverzeichnis</summary>
 
-+ [App Structure](#app-structure)
-+ [App Behaviour](#app-behaviour)
-+ [App References](#app-references)
-+ [Design Decisions](#design-decisions)
-+ [Sources](#sources)
++ [App Struktur](#app-structure)
++ [App Verhalten](#app-behaviour)
++ [App Referenzen](#app-references)
++ [Design Entscheidungen](#design-decisions)
++ [Quellen](#sources)
 
 </details>
 
-### App Structure
+### App Struktur
 
 **Main Features:**
 
@@ -128,21 +128,21 @@ Kunstdatenbank: Zugang an Informationen aus verschiedenen Epochen und Künstlern
 
 Favoriten und Sammlungen: Möglichkeit, persönliche Favoriten zu erstellen
 
-**Data-Model:**
+**Datenmodell:**
 ![Data Model](Datamodel.png)
 
-### App Behaviour
+### App Verhalten
 ![Data Model](appbehaviour.png)
 
-### App Routes
+### App Route
 
 **1. Startseite**
    
 Route: /
 
-Methods: GET
+Methoden: GET
 
-Purpose: Zeigt die Startseite der Anwendung an.
+Zweck: Zeigt die Startseite der Anwendung an.
 
 Output:
 ![Design1](startseite.png)
@@ -151,9 +151,9 @@ Output:
    
 Route: /Kuenstler
 
-Methods: GET
+Methoden: GET
 
-Purpose: Die Künstler-Seite rendern.
+Zweck: Die Künstler-Seite rendern.
 
 Output:
 ![Design1](Kunstler.png)
@@ -162,9 +162,9 @@ Output:
    
 Route: /Epoche
 
-Methods: GET
+Methoden: GET
 
-Purpose: Die Epoche-Seite rendern.
+Zweck: Die Epoche-Seite rendern.
 
 Output:
 ![Design1](epochen.png)
@@ -173,9 +173,9 @@ Output:
    
 Route: N/A
 
-Methods: handleSearch
+Methoden: handleSearch
 
-Purpose: dient der Benutzereingabe im Suchfeld.
+Zweck: dient der Benutzereingabe im Suchfeld.
 
 Output:
 ![Design1](suchfunktion.png)
@@ -184,9 +184,9 @@ Output:
 
 Route: /Barock
 
-Methods: GET
+Methoden: GET
 
-Purpose: rendert die HTML-Seite EpocheBarock.html, die Informationen über die Epoche Barock anzeigt.
+Zweck: rendert die HTML-Seite EpocheBarock.html, die Informationen über die Epoche Barock anzeigt.
 
 Output:
 ![Design1](Suchfunktion2.png)
@@ -195,9 +195,9 @@ Output:
 
 Route: N/A
 
-Methods: alert('Keine Ergebnisse gefunden.'); 
+Methoden: alert('Keine Ergebnisse gefunden.'); 
 
-Purpose: Wenn die Suchleiste keiner Epoche bzw. Künstler entspricht wird die Meldung angezeigt
+Zweck: Wenn die Suchleiste keiner Epoche bzw. Künstler entspricht wird die Meldung angezeigt
 
 Output:
 ![Design1](suchfunktion3.png)
@@ -206,9 +206,9 @@ Output:
    
 Route: /Favoriten
 
-Methods: GET
+Methoden: GET
 
-Purpose: Favoritenseite auf der Startseite anzeigen
+Zweck: Favoritenseite auf der Startseite anzeigen
 
 Output:
 ![Design1](favoriten.png)
@@ -217,9 +217,9 @@ Output:
 
 Route: /Favoriten
 
-Methods: GET
+Methoden: GET
 
-Purpose: Favoriten-Funktion rendert die HTML-Seite Favoriten.html
+Zweck: Favoriten-Funktion rendert die HTML-Seite Favoriten.html
 
 Output:
 ![Design1](favoriten2.png)
@@ -228,9 +228,9 @@ Output:
 
 Route: /get_favorites
 
-Methods: GET
+Methoden: GET
 
-Purpose: Zur Favoritenliste hinzufügen
+Zweck: Zur Favoritenliste hinzufügen
 
 Output:
 
@@ -240,15 +240,15 @@ Output:
 
 Route: /add_to_favorites
 
-Methods: POST
+Methoden: POST
 
-Purpose: Favoriten zur Datenbank hinzugefügt.
+Zweck: Favoriten zur Datenbank hinzugefügt.
 
 Output:
 ![Design1](favoriten4.png)
 
-### Design Decisions
-**Database Tool**
+### Design Entscheidungen
+**Datenbank Tool**
 
 Problem: Herausfinden, welches Tool wir für unsere Datenbank verwenden wollen, um auf diese zuzugreifen.
 
@@ -306,7 +306,7 @@ Ziel: übersichtliche Darstellung
 
 Wir haben die Informationen so angepasst und gekürzt, dass die wesentlichen Informationen zur Verfügung gestellt werden ohne, dass der Nutzer das Gefühl bekommt von zu viel Text überflutet zu werden. Unser Ziel ist es, klare und prägnante Informationen zu liefern, die leicht verständlich und sofort erfassbar sind.
 
-### Sources
+### Quellen
 
 Bücher:
 > Programmieren lernen mit Python und JavaScript von Joachim L. Zuckarelli (2021)
@@ -330,16 +330,16 @@ ChatGPT:
 
 > Bei der Entwicklung und Verbesserung der Favoritenseite hat ChatGPT geholfen.
 
-### Presentation
+### Präsentation
 Die Präsentation wurde mit Hilfe unserer Website vorgetragen.
 
 ---
 
-## Team Evaluation
+## Team Evaluierung 
 
-Improvements:
+Verbesserungen:
 Wir haben einige Punkte, die wir verbessern könnten: Zum einen das Design, das farbiger gestaltet werden könnte. 
 Zusätzlich könnte die Möglichkeit geboten werden, die Favoritenliste zu löschen und sicherzustellen, dass die Werke in der Favoritenliste nicht doppelt angezeigt werden, sondern nur einmal.
 
-Contributions:
+Beiträge
 Wir beide haben am Projekt zusammengearbeitet. Da wir nur zu zweit waren, haben wir uns wöchentlich getroffen und gemeinsam am Projekt weitergearbeitet. Wir empfanden die Aufteilung als fair, da wir in jedem Punkt mitgewirkt haben.
